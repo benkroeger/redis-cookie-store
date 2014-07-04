@@ -1,6 +1,6 @@
 # Redis Cookie Store
 
-redis-cookie-store is a Redis cookie store for tough-cookie module. See
+redis-cookie-store is a Redis store for tough-cookie module. See
 [tough-cookie documentation](https://github.com/goinstant/tough-cookie#constructionstore--new-memorycookiestore-rejectpublicsuffixes) for more info.
 
 ## Installation
