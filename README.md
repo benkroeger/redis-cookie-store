@@ -10,6 +10,7 @@ redis-cookie-store is a Redis store for tough-cookie module. See
 ## Options
 
   `client` An existing redis client object you normally get from `redis.createClient()`
+  `id` defining an ID for each redis store so that we can use multiple stores with the same redis database
 
 ## Usage
 
@@ -18,7 +19,7 @@ redis-cookie-store is a Redis store for tough-cookie module. See
       var CookieJar = require("tough-cookie").CookieJar;
       var RedisCookieStore = require("redis-cookie-store");
 
-      var jar = new CookieJar(new RedisCookieStore(client));
+      var jar = new CookieJar(new RedisCookieStore(client), 'my-cookie-store');
 
 # License 
   
