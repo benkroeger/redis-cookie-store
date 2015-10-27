@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/avovsya/redis-cookie-store.git"
+    "url": "https://github.com/benkroeger/redis-cookie-store.git"
   },
   "keywords": [
     "redis",
@@ -20,12 +20,12 @@
   "author": "Artem Vovsya <avovsya@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/avovsya/redis-cookie-store/issues"
+    "url": "https://github.com/benkroeger/redis-cookie-store/issues"
   },
-  "homepage": "https://github.com/avovsya/redis-cookie-store",
+  "homepage": "https://github.com/benkroeger/redis-cookie-store",
   "dependencies": {
-    "async": "~0.9.0",
-    "lodash": "~3.7.0",
-    "tough-cookie": "~1.1.0"
+    "async": "1.5.0",
+    "lodash": "3.10.1",
+    "tough-cookie": "2.2.0"
   }
 }
