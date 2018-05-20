@@ -1,8 +1,10 @@
 {
   "name": "redis-cookie-store",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Redis cookie store for tough-cookie module",
-  "files": ["lib/"],
+  "files": [
+    "lib/"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "format": "prettier-eslint --write \"lib/**/*.js\"",
@@ -16,7 +18,13 @@
     "type": "git",
     "url": "https://github.com/benkroeger/redis-cookie-store.git"
   },
-  "keywords": ["redis", "cookie", "tough-cookie", "tough", "store"],
+  "keywords": [
+    "redis",
+    "cookie",
+    "tough-cookie",
+    "tough",
+    "store"
+  ],
   "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
   "license": "MIT",
   "bugs": {
