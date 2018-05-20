@@ -1,6 +1,6 @@
 {
   "name": "redis-cookie-store",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Redis cookie store for tough-cookie module",
   "main": "index.js",
   "scripts": {
