@@ -2,30 +2,37 @@
   "name": "redis-cookie-store",
   "version": "0.0.2",
   "description": "Redis cookie store for tough-cookie module",
-  "main": "index.js",
+  "files": ["lib/"],
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier-eslint --write \"lib/**/*.js\"",
+    "prelint": "npm run format",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "ava --verbose",
+    "test:watch": "npm test -- --watch",
+    "coverage": "nyc npm test && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/benkroeger/redis-cookie-store.git"
   },
-  "keywords": [
-    "redis",
-    "cookie",
-    "tough-cookie",
-    "tough",
-    "store"
-  ],
-  "author": "Artem Vovsya <avovsya@gmail.com>",
+  "keywords": ["redis", "cookie", "tough-cookie", "tough", "store"],
+  "author": "Benjamin Kroeger <benjamin.kroeger@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/benkroeger/redis-cookie-store/issues"
   },
   "homepage": "https://github.com/benkroeger/redis-cookie-store",
   "dependencies": {
-    "async": "1.5.0",
-    "lodash": "3.10.1",
-    "tough-cookie": "2.2.0"
+    "async": "^2.6.0",
+    "lodash": "^4.17.10",
+    "tough-cookie": "^2.3.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.19.1",
+    "eslint-config-oniyi": "^5.1.0",
+    "nyc": "^11.8.0",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
