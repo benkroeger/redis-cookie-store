@@ -42,5 +42,6 @@
     "eslint-config-oniyi": "^5.1.0",
     "nyc": "^11.8.0",
     "prettier-eslint-cli": "^4.7.1"
-  }
+  },
+  "engines" : { "node" : ">=4.0.0" }
 }
