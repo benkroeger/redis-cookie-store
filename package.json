@@ -1,6 +1,6 @@
 {
   "name": "redis-cookie-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redis cookie store for tough-cookie module",
   "files": [
     "lib/"
@@ -43,5 +43,7 @@
     "nyc": "^11.8.0",
     "prettier-eslint-cli": "^4.7.1"
   },
-  "engines" : { "node" : ">=4.0.0" }
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
