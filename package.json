@@ -34,7 +34,7 @@
   "homepage": "https://github.com/benkroeger/redis-cookie-store",
   "dependencies": {
     "async": "^2.6.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "tough-cookie": "^2.3.4"
   },
   "devDependencies": {
