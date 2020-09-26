@@ -1,5 +1,3 @@
-'use strict';
-
 // node core
 
 // third-party
