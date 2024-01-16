@@ -38,7 +38,7 @@
     "tough-cookie": "^2.3.4"
   },
   "devDependencies": {
-    "ava": "1.4.1",
+    "ava": "6.0.1",
     "eslint": "7.9.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-prettier": "6.12.0",
